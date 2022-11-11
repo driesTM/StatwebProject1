@@ -1,19 +1,65 @@
-*{
-    background-color: rgb(77, 75, 75);
-    color: orange;
- }
- ul{
-     list-style-type: none;
-     
- }
- 
- li {
-     float: left;
-     display: block;
-     color: orange;
-     text-align: center;
-     padding: 20px 20px;
-     text-decoration: none;
- }
 
- 
+body{
+    font-family: Times New Roman ;  
+    margin: auto;
+    font-size: large;
+    box-sizing: border-box;
+  }
+  
+  ul{
+   list-style-type: none;   
+   overflow: hidden;
+   background-color: gray;
+   margin: 0;
+   padding: 0;
+   border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+   border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  li{
+  float: left;    
+  }
+  
+  li a {
+      display: block;
+      color: orange;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+  
+    li a:hover {
+      background-color: #111;
+    }
+  
+    .active {
+      background-color: #f04c25;
+    }
+  body{
+      width: 70%;
+      text-align: center;
+      align-items: center;
+      
+  }
+  .tekst{
+      background-color: gray;
+      color: orange;
+      border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+  }
+
+  .none{
+    float: none;
+  }
+  .none :hover{
+background-color: gray;
+  }
+  footer{
+    margin-top: 20 px;
+    float: right;
+    color: black;
+  }

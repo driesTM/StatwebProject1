@@ -22,19 +22,51 @@
         <li>
         <a href="hobby.html">Hobby's</a>
         </li>
-        <li>
+        <li class="active">
         <a href="contact.html">Contact</a>
         </li>
         
      </ul>    
-
- <h1>Contact</h1>  
+<section class="tekst">
+<h1>Contact</h1>  
 
  <ul>
  <li class="none">Telefoonnummer: 04......</li>
- <li class="none"><a href="mailto:r0713696@student.thomasmore.be">0713696@student.thomasmore.be</a></li> 
 
- <a href="index.html">Start</a>
+ <li class="none"><a href="mailto:r0713696@student.thomasmore.be">E-mail: r0713696@student.thomasmore.be</a></li>     
+ </ul>
 
+<p>U kan ook altijd onderstaand formulier invullen. Ik probeer u dan zo snel mogelijk terug te contacteren.</p>
+
+ <form action="https://tm-statweb.be/sendmail.php" method="post">
+    <div>
+        <label for="naam">Naam: <input type="text" id="naam" name="naam" required /></label>
+    </div>
+
+    <div>
+        <label for="email">Email: <input type="email" id="email" name="email" required/></label>
+    </div>
+
+    <div>
+        <label for="onderwerp">Onderwerp: <input type="text" id="onderwerp" name="onderwerp" required /></label>
+    </div>
+
+    <div>
+    <label for="vraag">Vraag: <textarea rows="5" id="vraag" name="vraag"></textarea></label>
+    </div>
+
+    </div>
+    <input type="hidden" name="studentemail" value="r0713696@student.thomasmore.be">
+    <div>
+
+    <div>
+        <input type="submit" value="Indienen" />
+    </div>
+ </form>
+ 
+</section>
+ 
+
+ <footer>Gemaakt door Dries Ennekens</footer>
 </body>
 </html>
