@@ -49,3 +49,12 @@ body{
   
 }
 
+footer{
+    
+  float: right;
+  color: black;
+}
+
+table{
+  border-color: orange;
+}

@@ -18,6 +18,10 @@ body{
     border-top-right-radius: 10px;
   }
   
+ol{
+  list-style-type: none;
+}
+
   li{
   float: left;    
   }
@@ -56,11 +60,9 @@ body{
    border-bottom-right-radius: 10px;
   }
 
-  h2{
-    width: 85%;
-  }
+ 
   p{
-    width: 85%;
+    
     margin-top: 10px;
     
   }
